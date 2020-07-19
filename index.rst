@@ -248,3 +248,28 @@ These are the instances of :class:`RelationList`:
 .. method:: RelationList.__str__() -> str
 
    Called by :meth:`str`. Returns :data:`str(`:attr:`value`:data:`)`.
+
+Context Manager
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+:class:`RelationList` has :meth:`__enter__` and :meth:`__exit__` methods, so it can be used as a context manager. All relations are cleared after the block is exited, and then exceptions will be re-raised if raised.
+
+Example:
+
+.. code:: python
+
+   >>> import relationlist
+   >>> with relationlist.RelationList([1, 2, 3]) as x:
+   ...     x.relate(1, 2, 'break', 3)
+   ...     x.relate(1, 3, 'delete', 4)
+   ...     x.relate(1, 4, 'break', 5)
+   ...     print(x.relations)
+   ...     raise ValueError
+   ...
+   [(1, 2, 'break', 3), (1, 3, 'delete', 4), (2, 3, 'break', 5)]
+   Traceback (most recent call last):
+     File "<pyshell#2>", line 6, in <module>
+       raise ValueError
+   ValueError
+   >>> x.relations
+   []
