@@ -22,3 +22,7 @@
 * :meth:`remove_relations` now returns a bool, :class:`False` when error suppressed by :data:`err='ignore'`, :class:`True` when no errors occured, to match :meth:`delete`.
 
 * :meth:`get_relations` now raises :class:`ValueError` rather than :class:`KeyError` to match other methods. Programs that need to support older versions should catch both.
+
+|
+
+`← Main Documentation <./index.html>`_
