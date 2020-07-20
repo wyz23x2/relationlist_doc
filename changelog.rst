@@ -20,4 +20,5 @@
 * :meth:`get_relates` is renamed to :meth:`get_relations`. The former is kept for backwards compatibility, but warns a :class:`DeprecationWarning` and will be removed in v1.4.
 
 * :meth:`remove_relations` now returns a bool, :class:`False` when error suppressed by :data:`err='ignore'`, :class:`True` when no errors occured, to match :meth:`delete`.
+
 * :meth:`get_relations` now raises :class:`ValueError` rather than :class:`KeyError` to match other methods. Programs that need to support older versions should catch both.
