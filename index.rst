@@ -123,7 +123,7 @@ These are the instances of :class:`RelationList`:
 
    Checks if *val1* and *val2* are related.
    
-   .. versionchanged:: v1.1.1
+   .. versionchanged:: 1.1.1
       :meth:`related` now uses the new :meth:`get_relation` instead of the old :meth:`get_relate`.
 
 .. attribute:: RelationList.relations
