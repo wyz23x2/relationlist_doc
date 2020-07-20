@@ -212,7 +212,7 @@ These are the instances of :class:`RelationList`:
    Called with :meth:`iter`, and converted to different types by :class:`list()`, :class:`tuple()`, :class:`dict()` and :class:`set()`. Returns :data:`iter(`:attr:`value`:data:`)`.
 
    .. versionchanged:: 1.1.0
-      :data:`iter(value)` is returned instead of :data:`iter(elm)`. Programs that need to support v1.0 and newer should simply switch to :data:`iter(self.elm)`.
+      :data:`iter(value)` is returned instead of :data:`iter(elm)`. Programs that need to support older versions should simply switch to :data:`iter(elm)`.
 
 .. method:: RelationList.__len__() -> int
 
