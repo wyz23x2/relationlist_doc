@@ -279,5 +279,4 @@ Example:
 
 |
 
-.. class:: right
 `Changelog → <./changelog.html>`_
