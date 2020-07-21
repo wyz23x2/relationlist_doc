@@ -9,10 +9,6 @@ Sometimes we want more from :class:`list`. Say you have elements :data:`1` and :
 
 _________________________________________________
 
-See the changelog `here <./changelog.html>`_.
-
-_________________________________________________
-
 Installing is easy. Run this in the command line:
 
 ``$ python3 -m pip install relationlist``
@@ -283,4 +279,4 @@ Example:
 
 |
 
-                                                                                                                                `Changelog → <./changelog.html>`_
+:data:`                                                                                                                       ` `Changelog → <./changelog.html>`_
