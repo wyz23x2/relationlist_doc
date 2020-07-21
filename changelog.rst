@@ -26,7 +26,7 @@
 |
 
 +----------------------------------------+--------------------+
-| `← Main Documentation <./index.html>`_ | Github Pages → gp_ |
+| `← Main Documentation <./index.html>`_ | `Github Pages →`__ |
 +----------------------------------------+--------------------+
 
-.. _gp:: https://relationlist.readthedocs.io/github-pages.html
+.. __:: https://relationlist.readthedocs.io/github-pages.html
