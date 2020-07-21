@@ -279,4 +279,5 @@ Example:
 
 |
 
-:data:`                                                                                                                       ` `Changelog → <./changelog.html>`_
+.. class:: right
+`Changelog → <./changelog.html>`_
