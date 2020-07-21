@@ -25,6 +25,8 @@
 
 |
 
-`← Main Documentation <./index.html>`_
-
-\ \ \ `Github Pages → <./github-pages.html>`_
++----------------------------------------+
+| `← Main Documentation <./index.html>`_ |
++------+---------------------------------+-------+
+       | `Github Pages → <./github-pages.html>`_ |
+       +-----------------------------------------+
