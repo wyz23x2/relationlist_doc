@@ -1,14 +1,14 @@
 :mod:`relationlist` Changelog
 ================================================
 
-:mod:`RelationList` 1.1.1
+:mod:`relationlist` 1.1.1
 ------------------------------------------------
 
 * Fixed :meth:`related` to use the new :meth:`get_relation` instead of the old :meth:`get_relate`.
 
 * Corrected :meth:`get_relate` and :meth:`get_relates` deprecation warning messages to show v1.4 instead of v1.2.
 
-:mod:`Relationlist` 1.1.0
+:mod:`relationlist` 1.1.0
 ------------------------------------------------
 
 * :meth:`repr` now returns something like :data:`RelationList(1, 2, 3)` instead of the old :data:`([1, 2, 3], [], {1: 0, 2: 0, 3: 0})`.
