@@ -280,3 +280,7 @@ Example:
    ValueError
    >>> x.relations
    []
+
+|
+
+                                                                                                                                `Changelog → <./changelog.html>`_
