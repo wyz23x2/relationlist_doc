@@ -206,6 +206,9 @@ These are the instances of :class:`RelationList`:
 .. WARNING::
    The :data:`%T` format code is deprecated and warns a :class:`PendingDeprecationWarning`. It will be upgraded to :class:`DeprecationWarning` in v2.0 and be removed in v3.0.
 
+.. deprecated-remove:: 1.1.0 2.0.0
+   The unflexible :data:`%T` code.
+
 .. method:: RelationList.__getitem__(index)
 
    Called with :data:`self[index]`. Returns :attr:`value`:data:`[index]`.
