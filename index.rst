@@ -203,8 +203,9 @@ These are the instances of :class:`RelationList`:
    |  :data:`%T` | Inserts :data:`tuple(value)`.|
    +-------------+------------------------------+
 
+
    .. deprecated-removed:: 1.1.0 3.0.0
-      The unflexible :data:`%T` format code is deprecated and warns :class:`PendingDeprecationWarning`. It will be upgraded to :class:`DeprecationWarning` in v2.0           and be removed in v3.0.
+      The unflexible :data:`%T` format code is deprecated and warns :class:`PendingDeprecationWarning`. It will be upgraded to :class:`DeprecationWarning` in v2.0 and be removed in v3.0.
 
 .. method:: RelationList.__getitem__(index)
 
@@ -271,7 +272,7 @@ Example:
    ...
    [(1, 2, 'break', 3), (1, 3, 'delete', 4), (2, 3, 'break', 5)]
    Traceback (most recent call last):
-     File "<pyshell#2>", line 6, in <module>
+     File ??, line 6, in <module>
        raise ValueError
    ValueError
    >>> x.relations
