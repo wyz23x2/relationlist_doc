@@ -203,11 +203,8 @@ These are the instances of :class:`RelationList`:
    |  :data:`%T` | Inserts :data:`tuple(value)`.|
    +-------------+------------------------------+
 
-   .. WARNING::
-      The :data:`%T` format code is deprecated and warns a :class:`PendingDeprecationWarning`. It will be upgraded to :class:`DeprecationWarning` in v2.0 and be             removed in v3.0.
-
-   .. deprecated-removed:: 1.1.0 2.0.0
-      The unflexible :data:`%T` code.
+   .. deprecated-removed:: 1.1.0 3.0.0
+      The unflexible :data:`%T` format code is deprecated and warns a :class:`PendingDeprecationWarning`. It will be upgraded to :class:`DeprecationWarning` in v2.0         and be removed in v3.0.
 
 .. method:: RelationList.__getitem__(index)
 
