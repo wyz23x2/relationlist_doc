@@ -22,6 +22,8 @@ After that, test it:
 
 .. code:: python
 >>> import relationlist
+>>> relationlist.ver.raw
+'1.2.0'
 >>> # You're ready to use relationlist!
 
 _________________________________________________
@@ -37,7 +39,7 @@ _________________________________________________
     .. versionchanged:: 1.1.0
        The default value is changed to an empty :class:`tuple` instead of :class:`None` to reflect defaults of :class:`list()` and :class:`tuple()`.
     .. .. versionchanged:: 1.1.1
-    .. :class:`DeprecationWarning` is raised when :class:`None` is passed to set :attr:`value` to :data:`[]`. It will be invalid starting from v1.2.
+    .. :class:`DeprecationWarning` is raised when :class:`None` is passed to set :attr:`value` to :data:`[]`. It will be invalid starting from v1.2.1.
 
 These are the instances of :class:`RelationList`:
 
@@ -286,6 +288,23 @@ Example:
    ValueError
    >>> x.relations
    []
+
+relationlist.ver
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+:class:`relationlist.ver` is a module about :class:`relationlist`'s version information.
+
+.. attribute:: ver.raw
+
+   The raw string of the version, same as the :data:`Version:` content in :data:`python3 -m pip show relationlist`.
+
+.. attribute:: ver.md5
+
+   The MD5 hexdigest of :attr:`ver.raw`.
+   
+.. attribute:: ver.version
+
+   A :class:`namedtuple` that matches the names of :data:`sys.versioninfo`, with :data:`('major', 'minor', 'micro', 'releaselevel', 'serial')`.
 
 |
 
