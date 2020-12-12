@@ -75,6 +75,14 @@ These are the instances of :class:`RelationList`:
 
     If :data:`func` is :class:`False`, returns a generator of :attr:`value`, else returns a function that returns the generator when called.
 
+    .. deprecated:: 1.2.0
+       The :data:`func` parameter is deprecated and will be removed in v1.4. Use :meth:`generator_func` instead.
+
+.. method:: RelationList.generator_func()
+
+    Returns a function that returns a generator of :attr:`value` when called.
+    .. versionadded:: 1.2.0
+
 .. method:: RelationList.get_relation(val1, val2, /) -> tuple
 
     Returns a :class:`tuple` of the form :data:`(val1, val2, mode, assignment)` representing the relation between *val1* and *val2*. Raises :class:`ValueError` apon failure.
