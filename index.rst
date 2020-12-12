@@ -23,7 +23,7 @@ After that, test it:
 .. code:: python
 >>> import relationlist
 >>> relationlist.ver.raw
-'1.2.0'
+'1.2.1'
 >>> # You're ready to use relationlist!
 
 _________________________________________________
@@ -38,8 +38,6 @@ _________________________________________________
        The *lis* parameter is renamed to *iterable* and accepts any iterable.
     .. versionchanged:: 1.1.0
        The default value is changed to an empty :class:`tuple` instead of :class:`None` to reflect defaults of :class:`list()` and :class:`tuple()`.
-    .. .. versionchanged:: 1.1.1
-    .. :class:`DeprecationWarning` is raised when :class:`None` is passed to set :attr:`value` to :data:`[]`. It will be invalid starting from v1.2.1.
 
 These are the instances of :class:`RelationList`:
 
