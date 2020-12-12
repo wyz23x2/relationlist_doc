@@ -1,7 +1,7 @@
 :mod:`relationlist` Changelog
 ================================================
 
-:mod:`relationlist` 1.2.0
+:mod:`relationlist` 1.2.1
 ------------------------------------------------
 
 * Added :mod:`relationlist.ver`. See more information `here <./index.html#relationlist-ver>`_.
@@ -9,6 +9,10 @@
 * Deprecated :data:`generator(func=True)`. Use the new :meth:`generator_func` instead.
 
 * We switched to a new license.
+
+* As Python 3.9 drops Windows 7 support, :mod:`relationlist` drops it.
+
+* Corrected wrong comments of :mod:`relationlist.ver`
 
 :mod:`relationlist` 1.1.1
 ------------------------------------------------
